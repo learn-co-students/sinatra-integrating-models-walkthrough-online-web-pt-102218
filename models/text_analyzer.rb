@@ -1,4 +1,6 @@
 # Your TextAnalyzer model code will go here.
+
+require 'pry'
 class TextAnalyzer
   attr_reader :text
 
@@ -37,7 +39,6 @@ class TextAnalyzer
         biggest[key] = value
       end
     end
-
     biggest
   end
 end
